@@ -1,0 +1,53 @@
+users table
+
+id
+first_name
+family_name
+email
+password
+
+
+shops table
+
+id         
+# quick_id                rand 6 digit unique
+business_name
+address_1
+address_2
+city
+postcode
+area_code
+telno
+
+
+shop staff table
+
+id
+shop_id                 fk(shops table id)
+first_name
+family_name
+email
+password
+
+quotes request table
+
+id
+user_id                 fk(users table id)
+start_date
+end_date
+request_date
+num_bikes
+quote_text
+staff_id                fk(shops staff table id)
+date_quoted
+quoted
+amount
+
+lowest quote table
+
+quote_id                fk(quote given table id)
+
+
+insert into shops ('shop_name'=>'SWOOSH','address_1'=>'1-7 northcourt road','address_2'=>'north abington','email'=>'shop@swoosh.com','city'=>'abington','postcode'=>'ox25 3te','area_code'=>'06435','telno'=>'223177'),
+
+insert into shops values ('',SWOOSH','1-7 northcourt road','north abington','shop@swoosh.com','abington','ox25 3te','06435','223177');

@@ -1,0 +1,21 @@
+{
+  "name": "rentlar",
+  "description": "",
+  "main": "",
+  "authors": [
+    "nadeem <nadeem@computerassistance.co.uk>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-material": "master",
+    "angular-moment": "^1.0.1"
+  }
+}

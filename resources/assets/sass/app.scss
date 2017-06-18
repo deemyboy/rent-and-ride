@@ -1,0 +1,46 @@
+
+$icon-font-path: "../fonts/";
+$fa-font-path:   "../fonts";
+//@import "bootstrap";
+//@import "font-awesome";
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+
+@import "node_modules/font-awesome/scss/font-awesome.scss";
+
+@import "_angular-material.scss";
+
+@import "_angular-material.layout-attributes.scss";
+
+@import "_angular-material.layouts.scss";
+
+@import "_quote-form.scss";
+
+
+
+
+body {
+    padding-top: 50px;
+}
+
+// 
+//
+// @each $key, $val in $ease {
+//   .ball {
+//     &.#{$key} {
+//       animation: there-and-back 2.5s $val infinite alternate;
+//     }
+//   }
+// }
+// //Example function call
+// .example {
+//   animation: there-and-back 2.5s ease(in-quad) infinite alternate;
+// }
+//
+// @keyframes there-and-back {
+//   to {left:100%;}
+// }
+//
+// //////////////////////////////////////////
+
+
